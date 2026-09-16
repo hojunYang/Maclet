@@ -1,0 +1,31 @@
+.DS_Store
+.build/
+dist/
+*.dmg
+*.xcarchive
+
+# Swift Package Manager
+Package.resolved
+.swiftpm/
+
+# Xcode / macOS user state
+*.xcuserstate
+*.xcuserdata/
+DerivedData/
+
+# Local logs and temporary captures
+*.log
+*.pid
+*.tmp
+*.swp
+
+# Local configuration and signing credentials
+.env
+.env.*
+!.env.example
+*.p12
+*.mobileprovision
+*.provisionprofile
+
+# Local agent instructions
+AGENTS.md
